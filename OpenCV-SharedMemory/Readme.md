@@ -1,6 +1,7 @@
 # OpenCV-SharedMemory
 
-  Shares an OpenCV image between two programs using Shared Memory on Windows.
+  Shares an OpenCV image between two programs using Shared Memory on Windows.  
+  Useful for using with GigE (eg: Basler) cameras if you need the same video in multiple programs but lack multi-cast hardware.  
   Relevant code can be found in [OpenCV-SharedMemory.cpp](OpenCV-SharedMemory/OpenCV-SharedMemory.cpp): server() and receiver().
 
   ![ScreenShot](Screenshot.PNG)
